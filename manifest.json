@@ -1,0 +1,21 @@
+{
+	"name": "Tab Amazing",
+	"version": "1.0",
+	"description": "Tab Amazing",
+	"manifest_version":2,
+	"browser_action":{
+		"default_icon" : "icon.png"
+	},
+	"homepage_url": "https://www.facebook.com/phuapple",
+	"permissions": [
+        "tabs"
+    ],
+	"chrome_url_overrides" : {
+		"newtab" : "tab.html"
+	},
+	"icons": {
+		"48": "icon.png",
+        "128": "icon.png"
+	},
+	 "content_security_policy": "script-src 'self' https://query.yahooapis.com https://geoip-db.com; object-src 'self';"
+}
